@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hotel El Escondite - Tu escape perfecto en Melgar, Colombia. Piscina, aguaparque, restaurante y bar. Reserva ahora por WhatsApp.">
+    <meta name="theme-color" content="#1A1714">
+    <meta property="og:title" content="Hotel El Escondite - Melgar, Colombia">
+    <meta property="og:description" content="Disfruta de piscina, aguaparque, restaurante y bar. Ideal para familias, parejas y eventos.">
+    <meta property="og:type" content="website">
+    <title>Hotel El Escondite | Tu Escape Perfecto en Melgar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader" id="pageLoader" aria-hidden="true">
+        <canvas class="loader-canvas" id="loaderCanvas"></canvas>
+        <span class="page-loader__mark">EL ESCONDITE</span>
+    </div>
+
+    <!-- Skip Link -->
+    <a href="#main-content" class="skip-link">Saltar al contenido</a>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Navegacion principal">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="Hotel El Escondite - Inicio">
+                <span class="nav-logo-text">Hotel El Escondite</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <div class="nav-menu" id="navMenu" role="menu">
+                <a href="#inicio" class="nav-link" role="menuitem">Inicio</a>
+                <a href="#instalaciones" class="nav-link" role="menuitem">Instalaciones</a>
+                <a href="#habitaciones" class="nav-link" role="menuitem">Habitaciones</a>
+                <a href="#galeria" class="nav-link" role="menuitem">Galeria</a>
+                <a href="#contacto" class="nav-link" role="menuitem">Contacto</a>
+                <a href="https://wa.me/573115895918?text=Hola%2C%20me%20interesa%20reservar%20en%20Hotel%20El%20Escondite" class="nav-cta" target="_blank" rel="noopener noreferrer" role="menuitem">Reservar</a>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero" id="hero" aria-label="Bienvenida">
+        <div class="hero-bg">
+            <img src="img/gallery-1.jpg" alt="Vista de la piscina del Hotel El Escondite en Melgar" class="hero-img" loading="eager">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-content">
+            <div class="hero-badge">Melgar, Colombia</div>
+            <h1 class="hero-title" data-split="chars">Hotel El Escondite</h1>
+            <p class="hero-subtitle">Tu escape perfecto entre piscinas, naturaleza y diversión</p>
+            <div class="hero-actions">
+                <a href="https://wa.me/573115895918?text=Hola%2C%20me%20interesa%20reservar%20en%20Hotel%20El%20Escondite" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    Reservar por WhatsApp
+                </a>
+                <a href="tel:+573128913582" class="btn btn-outline">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    Llamar Ahora
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator" aria-hidden="true">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="inicio" aria-label="Acerca del hotel">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image reveal-image">
+                    <img src="img/gallery-2.jpg" alt="Vista panoramica de la piscina del hotel" loading="lazy">
+                </div>
+                <div class="about-content reveal">
+                    <span class="section-tag">Bienvenidos</span>
+                    <h2 class="section-title split-text" data-split="words">Un paraiso tropical en el corazon de Melgar</h2>
+                    <div class="gold-separator"></div>
+                    <p class="about-text">Disfruta de nuestras comodas habitaciones, refrescate en nuestra piscina y diviertete en nuestro aguaparque. Ideal para familias, parejas y eventos. Todo lo que necesitas en un solo lugar.</p>
+                    <div class="feature-pills">
+                        <div class="pill">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24" aria-hidden="true"><path d="M2 12h1m3.5-6.5L7.8 6.8M12 2v1m5.7 3.5L16.2 6.8M22 12h-1M6 20h12M8 20v-4a4 4 0 118 0v4M12 12a2.5 2.5 0 100-5 2.5 2.5 0 000 5z"/></svg>
+                            <span>Piscina & Aguaparque</span>
+                        </div>
+                        <div class="pill">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24" aria-hidden="true"><path d="M3 11h18M5 11V6a2 2 0 012-2h0a2 2 0 012 2v0M12 11V4M3 11v6a4 4 0 004 4h10a4 4 0 004-4v-6"/></svg>
+                            <span>Restaurante & Bar</span>
+                        </div>
+                        <div class="pill">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24" aria-hidden="true"><path d="M12 6V2m0 0L9 5m3-3l3 3M5 12H2m3 0l-3 3m3-3L2 9m17 3h3m-3 0l3 3m-3-3l3-3M12 18v4m0-4l3 3m-3-3l-3 3"/><circle cx="12" cy="12" r="4"/></svg>
+                            <span>WiFi & Parqueadero</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section class="amenities" id="instalaciones" aria-label="Instalaciones y servicios">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Explora</span>
+                <h2 class="section-title">Nuestras Instalaciones</h2>
+                <div class="gold-separator center"></div>
+            </div>
+            <div class="amenities-grid">
+                <div class="amenity-card amenity-large reveal">
+                    <div class="amenity-img-wrap">
+                        <img src="img/gallery-2.jpg" alt="Piscina del Hotel El Escondite" loading="lazy">
+                    </div>
+                    <div class="amenity-info">
+                        <h3>Piscina</h3>
+                        <p>Nuestra amplia piscina te espera de 8:30am a 10:00pm. Incluida sin costo adicional para todos nuestros huespedes.</p>
+                    </div>
+                </div>
+                <div class="amenity-card reveal">
+                    <div class="amenity-img-wrap">
+                        <img src="img/waterpark.jpg" alt="Aguaparque para toda la familia" loading="lazy">
+                    </div>
+                    <div class="amenity-info">
+                        <h3>Aguaparque</h3>
+                        <p>Diversión acuatica para toda la familia con toboganes y juegos de agua.</p>
+                    </div>
+                </div>
+                <div class="amenity-card reveal">
+                    <div class="amenity-img-wrap">
+                        <img src="img/facilities.jpg" alt="Zona de juegos cubierta" loading="lazy">
+                    </div>
+                    <div class="amenity-info">
+                        <h3>Zona de Juegos</h3>
+                        <p>Billar, bolirana y trampolín. Entretenimiento para grandes y chicos.</p>
+                    </div>
+                </div>
+                <div class="amenity-card reveal">
+                    <div class="amenity-img-wrap">
+                        <img src="img/gallery-4.jpg" alt="Restaurante del hotel" loading="lazy">
+                    </div>
+                    <div class="amenity-info">
+                        <h3>Restaurante</h3>
+                        <p>Cocina colombiana con los mejores sabores de la región. Consulta nuestro menú.</p>
+                    </div>
+                </div>
+                <div class="amenity-card reveal">
+                    <div class="amenity-img-wrap">
+                        <img src="img/gallery-5.jpg" alt="Bar del hotel" loading="lazy">
+                    </div>
+                    <div class="amenity-info">
+                        <h3>Bar</h3>
+                        <p>Bebidas refrescantes y cócteles para disfrutar junto a la piscina.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="amenities-extras reveal">
+                <div class="extra-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M12 8v8m-4-4h8"/></svg>
+                    <span>Servicio 24 Horas</span>
+                </div>
+                <div class="extra-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28" aria-hidden="true"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+                    <span>WiFi Gratis</span>
+                </div>
+                <div class="extra-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28" aria-hidden="true"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0H5m14 0h2M5 21H3"/><path d="M9 7h1m-1 4h1m4-4h1m-1 4h1"/></svg>
+                    <span>Parqueadero Gratis</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section class="rooms ambient-glow" id="habitaciones" aria-label="Habitaciones">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag light">Descansa</span>
+                <h2 class="section-title light">Habitaciones</h2>
+                <div class="gold-separator center"></div>
+            </div>
+            <div class="rooms-scroll">
+                <div class="room-card reveal">
+                    <div class="room-img-wrap">
+                        <img src="img/room-1.jpg" alt="Habitacion doble con bano privado" loading="lazy">
+                    </div>
+                    <div class="room-info">
+                        <h3>Habitacion Confortable</h3>
+                        <p>Amplias habitaciones con cama doble, baño privado, ventilador y todo lo necesario para tu descanso.</p>
+                        <a href="https://wa.me/573115895918?text=Hola%2C%20quiero%20consultar%20disponibilidad%20de%20habitaciones" class="btn btn-gold" target="_blank" rel="noopener noreferrer">Consultar Disponibilidad</a>
+                    </div>
+                </div>
+                <div class="room-card reveal">
+                    <div class="room-img-wrap">
+                        <img src="img/room-2.jpg" alt="Habitacion con camas twin" loading="lazy">
+                    </div>
+                    <div class="room-info">
+                        <h3>Habitacion Familiar</h3>
+                        <p>Perfecta para familias, con espacio amplio, multiples camas y todas las comodidades para tu estadia.</p>
+                        <a href="https://wa.me/573115895918?text=Hola%2C%20quiero%20consultar%20disponibilidad%20de%20habitacion%20familiar" class="btn btn-gold" target="_blank" rel="noopener noreferrer">Consultar Disponibilidad</a>
+                    </div>
+                </div>
+            </div>
+            <div class="rooms-info-bar reveal">
+                <div class="info-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20" aria-hidden="true"><path d="M15 3h4a2 2 0 012 2v14a2 2 0 01-2 2h-4M10 17l5-5-5-5M13.8 12H3"/></svg>
+                    <span>Check-in desde las 9:00am</span>
+                </div>
+                <div class="info-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20" aria-hidden="true"><path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4M16 17l5-5-5-5M21 12H9"/></svg>
+                    <span>Check-out 12:00pm - 1:00pm</span>
+                </div>
+                <div class="info-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    <span>Disfruta instalaciones hasta 5pm</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Day Pass Section -->
+    <section class="daypass" aria-label="Pasadia">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag light">Sin hospedaje</span>
+                <h2 class="section-title light">Pasadia</h2>
+                <div class="gold-separator center"></div>
+            </div>
+            <div class="daypass-grid">
+                <div class="daypass-card reveal">
+                    <div class="daypass-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="40" height="40" aria-hidden="true"><path d="M2 12h1m3.5-6.5L7.8 6.8M12 2v1m5.7 3.5L16.2 6.8M22 12h-1"/><path d="M6 20h12M8 20v-4a4 4 0 118 0v4"/></svg>
+                    </div>
+                    <h3>Piscina + Habitacion</h3>
+                    <p class="daypass-time">9:00am - 4:00pm</p>
+                    <p>Disfruta de la piscina, el aguaparque y descansa en una habitacion privada.</p>
+                    <a href="https://wa.me/573115895918?text=Hola%2C%20quiero%20consultar%20el%20pasadia%20con%20habitacion" class="btn btn-gold" target="_blank" rel="noopener noreferrer">Consultar</a>
+                </div>
+                <div class="daypass-card reveal">
+                    <div class="daypass-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="40" height="40" aria-hidden="true"><path d="M14 6a4 4 0 11-8 0M2 12c0 4.5 4 8 10 8s10-3.5 10-8"/><path d="M2 12c1 1.5 4.5 2 10 2s9-0.5 10-2"/></svg>
+                    </div>
+                    <h3>Solo Piscina</h3>
+                    <p class="daypass-time">11:00am - 5:00pm</p>
+                    <p>Acceso a la piscina y al aguaparque para pasar un dia increible.</p>
+                    <a href="https://wa.me/573115895918?text=Hola%2C%20quiero%20consultar%20el%20pasadia%20solo%20piscina" class="btn btn-gold" target="_blank" rel="noopener noreferrer">Consultar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="galeria" aria-label="Galeria de fotos">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Descubre</span>
+                <h2 class="section-title">Galeria</h2>
+                <div class="gold-separator center"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-tall reveal">
+                    <img src="img/gallery-1.jpg" alt="Entrada de la piscina con estatua de tiburon" loading="lazy">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="img/gallery-2.jpg" alt="Vista panoramica de la piscina" loading="lazy">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="img/gallery-3.jpg" alt="Area de descanso del hotel" loading="lazy">
+                </div>
+                <div class="gallery-item gallery-wide reveal">
+                    <img src="img/gallery-4.jpg" alt="Instalaciones del hotel" loading="lazy">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="img/gallery-5.jpg" alt="Zona verde del hotel" loading="lazy">
+                </div>
+                <div class="gallery-item reveal">
+                    <img src="img/gallery-6.jpg" alt="Areas comunes del hotel" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" aria-label="Opiniones de huespedes">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Testimonios</span>
+                <h2 class="section-title">Lo que dicen nuestros huespedes</h2>
+                <div class="gold-separator center"></div>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card card-lux reveal">
+                    <div class="review-stars" aria-label="5 estrellas">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <blockquote class="review-text">"Excelente lugar para visitar en familia, muy amables todas las personas que trabajan alli, y muy limpio todo. Super recomendado este lugar."</blockquote>
+                    <cite class="review-author">Ana Maria Munoz Lopez</cite>
+                    <span class="review-source">Google Reviews</span>
+                </div>
+                <div class="review-card card-lux reveal">
+                    <div class="review-stars" aria-label="5 estrellas">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <blockquote class="review-text">"Excelente servicio, buen precio, comodidad en la habitacion. Muy recomendado para descansar."</blockquote>
+                    <cite class="review-author">Johan Mendez</cite>
+                    <span class="review-source">Google Reviews</span>
+                </div>
+                <div class="review-card card-lux reveal">
+                    <div class="review-stars" aria-label="5 estrellas">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <blockquote class="review-text">"Sitio comodo, buen servicio, excelente atencion. Muy recomendado para pasar un buen rato en familia."</blockquote>
+                    <cite class="review-author">Andres Gutierres Aldana</cite>
+                    <span class="review-source">Google Reviews</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" aria-label="Ubicacion">
+        <div class="container">
+            <div class="location-grid">
+                <div class="location-map reveal">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1988.7!2d-74.6433!3d4.2048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3edf253d3dc5c3%3A0xcd15fface8b245e2!2sHotel%20El%20Escondite!5e0!3m2!1ses!2sco!4v1711400000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicacion de Hotel El Escondite en Google Maps"></iframe>
+                </div>
+                <div class="location-info reveal">
+                    <span class="section-tag">Visitanos</span>
+                    <h2 class="section-title">Como Llegar</h2>
+                    <div class="gold-separator"></div>
+                    <p>Estamos ubicados en Melgar, Tolima, Colombia. El destino de clima calido favorito de los bogotanos.</p>
+                    <a href="https://maps.app.goo.gl/4bAcpTbMXmJvnZHK9" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        Abrir en Google Maps
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Contact / Footer Section -->
+    <footer class="footer ambient-glow" id="contacto" aria-label="Contacto">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2 class="footer-logo">Hotel El Escondite</h2>
+                    <p>Tu escape perfecto en Melgar, Colombia. Piscina, aguaparque, restaurante y mucho mas.</p>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            <a href="https://wa.me/573115895918?text=Hola%2C%20quiero%20información%20sobre%20Hotel%20El%20Escondite" target="_blank" rel="noopener noreferrer">+57 311 589 5918</a>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            <a href="tel:+573128913582">+57 312 891 3582</a>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                            <a href="mailto:hotelelescondite@gmail.com">hotelelescondite@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Siguenos</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/hotel.elescondite/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="https://www.facebook.com/RNT.4917uno?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="https://tiktok.com/@hotelelescondite" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.46V13a8.28 8.28 0 005.58 2.15V11.7a4.81 4.81 0 01-3.77-1.24V6.69h3.77z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hotel El Escondite. Todos los derechos reservados. | R.N.T. 206148</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/573115895918?text=Hola%2C%20quiero%20información%20sobre%20Hotel%20El%20Escondite" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <!-- Grain Overlay -->
+    <div class="grain-overlay" aria-hidden="true"></div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
